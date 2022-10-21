@@ -1,1 +1,0 @@
-select p1.email from Person p1 where count(select p2.email from Person p2 where p1.email equals p2.email) > 1;
